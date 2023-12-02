@@ -18,6 +18,19 @@ window.onscroll = () => {
     })
 }
 
+// Responsive Menu
+let burgerMenu = document.querySelector(".burger");
+const nav_links = document.querySelector(".nav-links");
+burgerMenu.addEventListener('click', () => {
+    if (nav_links.classList.contains('menu-active')) {
+        nav_links.classList.remove('menu-active');
+        burgerMenu.classList.remove('burger-active');
+    } else {
+        nav_links.classList.add('menu-active');
+        burgerMenu.classList.add('burger-active');
+    }
+});
+
 // Scroll Reveal
 ScrollReveal({
     distance: '80px',
