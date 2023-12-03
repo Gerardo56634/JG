@@ -592,4 +592,48 @@ iframe {
     }
 }
 
-@med
+@media screen and (733px >= width) {
+    #home .slogan h1 {
+        font-size: 3.8em;
+        line-height: 1.1;
+        text-wrap: balance;
+    }
+
+    #home .slogan p {
+        margin-top: 2.5rem;
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+}
+
+@media screen and (505px >= width) {
+    #home .slogan h1 {
+        font-size: 2.5em;
+        line-height: 1.1;
+        text-wrap: balance;
+    }
+
+    #home .slogan p {
+        margin-top: 2.5rem;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    #contact-us {
+        flex-direction: column;
+    }
+
+    #contact-us form {
+        width: 100%;
+    }
+
+    #contact-us form .form-input input {
+        width: inherit;
+    }
+}
+
+@media screen and (431px >= width) {
+    
+    
+    
+}
