@@ -33,11 +33,13 @@ burgerMenu.addEventListener('click', () => {
 
 // Scroll Reveal
 ScrollReveal({
-    distance: '80px',
     duration: 2000,
     delay: 200
 });
 
+// Home Section
+ScrollReveal().reveal('.slogan-heading', {origin: 'left'});
+ScrollReveal().reveal('.slogan-p', {origin: 'right'});
 
 // About Section
 ScrollReveal().reveal('.about-img', {origin: 'left'});
