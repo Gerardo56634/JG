@@ -38,9 +38,6 @@ ScrollReveal({
     delay: 200
 });
 
-// Home Section
-ScrollReveal().reveal('.slogan-heading', {origin: 'left'});
-ScrollReveal().reveal('.slogan-p', {origin: 'right'});
 
 // About Section
 ScrollReveal().reveal('.about-img', {origin: 'left'});
