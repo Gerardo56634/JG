@@ -46,10 +46,11 @@ ScrollReveal().reveal('.about-img', {origin: 'left'});
 ScrollReveal().reveal('.about-content', {origin: 'right'});
 
 // Services Section
-ScrollReveal().reveal('.heading', {origin: 'top'});
+ScrollReveal().reveal('.heading', {origin: 'top', distance: '80px'});
 const services = document.querySelectorAll('.service');
 services.forEach((service, index) => {
-    ScrollReveal().reveal(service, { 
+    ScrollReveal().reveal(service, {
+        distance: '80px',
         origin: 'bottom', 
         delay: index * 100 // Ajustamos este valor según lo rápido que queramos que aparezcan los elementos
     });
