@@ -52,7 +52,7 @@ const services = document.querySelectorAll('.service');
 services.forEach((service, index) => {
     ScrollReveal().reveal(service, { 
         origin: 'bottom', 
-        delay: index * 150 // Ajustamos este valor según lo rápido que queramos que aparezcan los elementos
+        delay: index * 100 // Ajustamos este valor según lo rápido que queramos que aparezcan los elementos
     });
 });
 
