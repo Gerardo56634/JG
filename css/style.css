@@ -507,8 +507,8 @@ iframe {
     }
 
     #home {
-        padding-top: 0;
-        margin-top: 4.7rem;
+        /* padding-top: 0;
+        margin-top: 4.7rem; */
         background-image: url("/img/security-cam.jpg");
         background-position: center;
         background-size: cover;
@@ -617,6 +617,10 @@ iframe {
         margin-top: 2.5rem;
         font-size: 1.2em;
         font-weight: 500;
+    }
+
+    header .logo #brand {
+        display: none;
     }
 
     #contact-us {
